@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.dockerfile
+
+vscode:
+  extensions:
+    - betterthantomorrow.calva
+
+tasks:
+  - name: Prepare deps
+    init: clojure -P -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}'
+  #- name: Open README
+  #  command: open -g README.md
