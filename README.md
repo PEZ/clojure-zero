@@ -8,7 +8,7 @@ You can of course also hack on it locally on your machine. Then you need to have
 
 To use this in the browser.
 
-1. Click this link: https://gitpod.io/#https://github.com/PEZ/minimal-clojure
+1. Click this link: https://gitpod.io/#https://github.com/PEZ/clojure-zero
    * You will be prompted to log in, choose to use Github login
    * This will open the repository in a Gitpod workspace in the browser. (Might take a while.)
    * You'll find VS Code running there, ready to let you edit the files in the project.
